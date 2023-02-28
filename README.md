@@ -16,7 +16,7 @@ Validates a YAML file by converting it to JSON and validating it using a JSON sc
 
 ```yaml
 - name: YAML file validation
-  uses: mpoc/nexus-validate-using-remote-schema-action@main
+  uses: fpesce/nexus-validate-using-remote-schema-action@main
   with:
     api-endpoint: 'http://example.com/validate'
     yaml-file: assignment.yml
